@@ -1,0 +1,45 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "emitEntryPoint": true,
+    "compilerName": "fsc",
+    "compile": {
+      "includeFiles": [
+        "Program.fs"
+      ]
+    }
+  },
+  "dependencies": {
+    "tesla": {
+      "target": "project",
+      "version": "1.0.0-*"
+    },
+    "Microsoft.NETCore.DotNetHostResolver": "1.0.1-rc4-000454-00",
+    "Microsoft.NETCore.DotNetHost": "1.0.1-rc4-000454-00",
+    "Microsoft.NETCore.App": "1.0.0-rc4-000454-00",
+    "Microsoft.FSharp.Core.netcore": "1.0.0-alpha-160509"
+  },
+  "tools": {
+    "dotnet-compile-fsc": {
+      "version": "1.0.0-*",
+      "imports": [
+        "dnxcore50",
+        "portable-net45+win81",
+        "netstandard1.3"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp1.0": {
+      "dependencies": {
+      },
+      "imports": [
+        "dnxcore50"
+      ]
+    }
+  },
+  "runtimes": {
+    "win10": { },
+    "win10-x64": { }
+  }
+}
