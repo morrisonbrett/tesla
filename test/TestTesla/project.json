@@ -1,15 +1,20 @@
 {
+  "title": "Brett Morrison",
+  "copyright": "Copyright © 2016",
+  "description": "Library Tests for Tesla",
   "version": "1.0.0-*",
   "dependencies": {
-    "tesla": {
+    "Tesla": {
       "target": "project",
       "version": "1.0.0-*"
     },
     "xunit.runner.visualstudio": "2.2.0-beta1-build1144",
     "xunit.runner.console": "2.2.0-beta1-build3239",
     "xunit": "2.2.0-beta1-build3239",
-    "Microsoft.NETCore.App": "1.0.0-rc4-000440-00",
-    "dotnet-test-xunit": "1.0.0-rc3-000000-02"
+    "Flurl.Http": "0.10.1",
+    "moq.netcore": "4.4.0-beta8",
+    "dotnet-test-xunit": "1.0.0-rc3-000000-02",
+    "Microsoft.NETCore.App": "1.0.0-rc4-000454-00"
   },
   "testRunner": "xunit",
   "frameworks": {
@@ -22,6 +27,8 @@
   },
   "runtimes": {
     "win10": { },
-    "win10-x64": { }
+    "win10-x64": { },
+    "osx.10.10-x64": { },
+    "ubuntu.14.04-x64": { }
   }
 }

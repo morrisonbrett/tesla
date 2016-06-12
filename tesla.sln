@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "example.c#", "src\example.c#\example.c#.xproj", "{E9D56D57-3BA4-427E-A0E9-D0362E6E2944}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Example.c#", "src\Example.c#\Example.c#.xproj", "{E9D56D57-3BA4-427E-A0E9-D0362E6E2944}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "tesla", "src\tesla\tesla.xproj", "{2BD8E0AF-2961-4FFA-A2DB-24A29CF2C1AF}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Tesla", "src\Tesla\Tesla.xproj", "{2BD8E0AF-2961-4FFA-A2DB-24A29CF2C1AF}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "example.f#", "src\example.f#\example.f#.xproj", "{FE603C2A-825A-486D-9857-88749B2BADA8}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Example.f#", "src\Example.f#\Example.f#.xproj", "{FE603C2A-825A-486D-9857-88749B2BADA8}"
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TestTesla", "test\TestTesla\TestTesla.xproj", "{FB0E1E49-F0EE-4F95-AA51-05AF74B7A702}"
 EndProject

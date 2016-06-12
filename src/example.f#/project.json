@@ -1,4 +1,7 @@
 {
+  "title": "Brett Morrison",
+  "copyright": "Copyright © 2016",
+  "description": "Example F# for Tesla",
   "version": "1.0.0-*",
   "buildOptions": {
     "emitEntryPoint": true,
@@ -10,7 +13,7 @@
     }
   },
   "dependencies": {
-    "tesla": {
+    "Tesla": {
       "target": "project",
       "version": "1.0.0-*"
     },
@@ -40,6 +43,8 @@
   },
   "runtimes": {
     "win10": { },
-    "win10-x64": { }
+    "win10-x64": { },
+    "osx.10.10-x64": { },
+    "ubuntu.14.04-x64": { }
   }
 }

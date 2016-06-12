@@ -1,8 +1,8 @@
 ﻿open System
-open tesla
+open Tesla
 
 [<EntryPoint>]
 let main argv = 
-    let answer = Thing().Get(42)
+    let answer = 42
     printfn "The answer is %d." answer
     0
