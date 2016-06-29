@@ -1,5 +1,7 @@
-﻿open System
-open Tesla
+﻿// Tesla F# Example
+//
+open System
+//open Tesla
 
 [<EntryPoint>]
 let main argv = 

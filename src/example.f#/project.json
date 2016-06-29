@@ -13,13 +13,11 @@
     }
   },
   "dependencies": {
+    "Microsoft.NETCore.App": "1.0.1-beta-000547-00",
     "Tesla": {
       "target": "project",
       "version": "1.0.0-*"
     },
-    "Microsoft.NETCore.DotNetHostResolver": "1.0.1-rc4-000454-00",
-    "Microsoft.NETCore.DotNetHost": "1.0.1-rc4-000454-00",
-    "Microsoft.NETCore.App": "1.0.0-rc4-000454-00",
     "Microsoft.FSharp.Core.netcore": "1.0.0-alpha-160509"
   },
   "tools": {
@@ -34,17 +32,13 @@
   },
   "frameworks": {
     "netcoreapp1.0": {
-      "dependencies": {
-      },
-      "imports": [
-        "dnxcore50"
-      ]
+      "imports": "dnxcore50"
     }
   },
   "runtimes": {
-    "win10": { },
-    "win10-x64": { },
-    "osx.10.10-x64": { },
-    "ubuntu.14.04-x64": { }
+    "win10": {},
+    "win10-x64": {},
+    "osx.10.10-x64": {},
+    "ubuntu.14.04-x64": {}
   }
 }
