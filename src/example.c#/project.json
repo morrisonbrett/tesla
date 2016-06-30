@@ -1,5 +1,6 @@
 {
-  "title": "Brett Morrison",
+  "title": "Tesla Example C#",
+  "authors": ["Brett Morrison"],
   "copyright": "Copyright © 2016",
   "description": "Example C# for Tesla",
   "version": "1.0.0-*",
@@ -11,7 +12,7 @@
     "Microsoft.NETCore.App": "1.0.1-beta-000547-00",
     "Tesla": {
       "target": "project",
-      "version": "1.0.0-*"
+      "version": "0.1.0-alpha"
     }
   },
   "frameworks": {
