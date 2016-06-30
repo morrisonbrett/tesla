@@ -1,12 +1,13 @@
 {
-  "title": "Brett Morrison",
+  "title": "Tesla Library Tests",
+  "authors": [ "Brett Morrison" ],
   "copyright": "Copyright © 2016",
   "description": "Library Tests for Tesla",
   "version": "1.0.0-*",
   "dependencies": {
     "Tesla": {
       "target": "project",
-      "version": "1.0.0-*"
+      "version": "0.1.0-alpha"
     },
     "Flurl.Http": "0.10.1",
     "moq.netcore": "4.4.0-beta8",

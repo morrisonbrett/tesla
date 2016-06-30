@@ -1,9 +1,11 @@
 {
-  "title": "Brett Morrison",
+  "title": "Tesla Example F#",
+  "authors": [ "Brett Morrison" ],
   "copyright": "Copyright © 2016",
   "description": "Example F# for Tesla",
   "version": "1.0.0-*",
   "buildOptions": {
+    "debugType": "portable",
     "emitEntryPoint": true,
     "compilerName": "fsc",
     "compile": {
@@ -16,7 +18,7 @@
     "Microsoft.NETCore.App": "1.0.1-beta-000547-00",
     "Tesla": {
       "target": "project",
-      "version": "1.0.0-*"
+      "version": "0.1.0-alpha"
     },
     "Microsoft.FSharp.Core.netcore": "1.0.0-alpha-160509"
   },
