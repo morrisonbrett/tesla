@@ -1,6 +1,6 @@
 ## Tesla Library
 
-[![Build status](https://ci.appveyor.com/api/projects/status/yq6wkxjj5x6565ux?svg=true)](https://ci.appveyor.com/project/BrettMorrison/tesla) [![NuGet](https://img.shields.io/nuget/v/Tesla.svg)](https://www.nuget.org/packages/Tesla/)
+[![Build status](https://ci.appveyor.com/api/projects/status/yq6wkxjj5x6565ux?svg=true)](https://ci.appveyor.com/project/morrisonbrett/tesla) [![NuGet](https://img.shields.io/nuget/v/Tesla.svg)](https://www.nuget.org/packages/Tesla/)
 
 Tesla Library is a package for interacting with the Tesla API.
 
