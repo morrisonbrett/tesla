@@ -9,7 +9,7 @@
     "emitEntryPoint": true
   },
   "dependencies": {
-    "Microsoft.NETCore.App": "1.0.1-beta-000547-00",
+    "Microsoft.NETCore.App": "1.0.1",
     "Tesla": {
       "target": "project",
       "version": "0.1.0-alpha"

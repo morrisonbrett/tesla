@@ -24,7 +24,7 @@ namespace TestTesla
             {
                 var moqT = new Token{ AccessToken = Token };
 
-                httpTest.RespondWith(200, JsonConvert.SerializeObject(moqT));
+                httpTest.RespondWith(JsonConvert.SerializeObject(moqT));
 
                 var t = await client.Authorize(auth);
 
@@ -45,7 +45,7 @@ namespace TestTesla
             {
                 var moqT = new Token { AccessToken = Token };
 
-                httpTest.RespondWith(401, JsonConvert.SerializeObject(moqT));
+                httpTest.RespondWith(JsonConvert.SerializeObject(moqT), 401);
 
                 try
                 {
@@ -96,7 +96,7 @@ namespace TestTesla
                 moqVehicles[0] = new Vehicle { ID = ID };
                 var moqVehicleResponse = new VehicleResponse { Count = 1, Vehicles = moqVehicles };
 
-                httpTest.RespondWith(200, JsonConvert.SerializeObject(moqVehicleResponse));
+                httpTest.RespondWith(JsonConvert.SerializeObject(moqVehicleResponse));
 
                 var vehicles = await client.Vehicles(new Token { AccessToken = Token });
 
